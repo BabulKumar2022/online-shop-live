@@ -7,6 +7,7 @@ const Shop = () => {
 
      const [products, setProducts] = useState([]);
      const [cart, setCart] = useState([]);
+    //  const {index, setIndex} = useState(0)
 
      useEffect(() =>{
          fetch('data.json')
@@ -14,11 +15,12 @@ const Shop = () => {
          .then(data => setProducts(data));
      }, [])
      const handleAddToCart = (product) =>{
-        console.log(product)
-        // cart.push(product);
+        // console.log(product)
+        
         const newCart =[...cart, product];
         setCart(newCart);
     }
+
 
     return (
         <div className='shop-container'>
@@ -33,9 +35,24 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Selected Summary</h3>
-                <h4>Selected Item: {cart.length}</h4>
+                <h2>Selected Summary</h2>
+                <div className="selected-container">
+                {
+                    cart.map((item) =>(<h4 key={item.id}>
+                        {item.name}
+                        </h4> ))
+                }
+                </div>
+               
+                <div className="btn-container">
+                    <button >Random Select One</button>
+                    <button >Reset</button>
+                </div>
+                <div className="selected-item">
+                    <h3></h3>
+                </div>
             </div>
+
         </div>
     );
 };

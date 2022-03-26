@@ -1,7 +1,7 @@
 .product{
     width: 250px;
     height:470px ;
-    border: 1px solid rgb(157, 154, 160);
+    border: 1px solid  rgb(207, 223, 236);
     border-radius: 10px;
     padding: 5px;
     position: relative;
@@ -9,7 +9,7 @@
 .product img{
     width: 220px;
     height: 250px;
-    border: 1px solid rgb(185, 173, 197);
+ 
     margin-top: 15px;
 }
 .cart-btn{
@@ -20,5 +20,11 @@
     left: 0;
     bottom: 0;
     border-radius:0px 0px 10px  10px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
     
+}
+.cart-text{
+    padding-right: 5px;
 }
