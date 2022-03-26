@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Asus Vivobook X515MA",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-500x500.jpg",
+    "price": "50040",
+    "category": "Laptop"
+  },
+  {
+    "id": 2,
+    "name": "Acer Extensa 15 EX215-52-384M",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/ex215-52-384m/ex215-52-384m-001-500x500.jpg",
+   
+    "price": "39000",
+    "category": "Laptop"
+  },
+  {
+    "id": 3,
+    "name": "Acer Aspire 5 A515-56 Core i3",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-5-a515-56/aspire-5-a515-56-01-500x500.jpg",
+    
+    "price": "43000",
+    "category": "Laptop"
+  },
+  {
+    "id": 4,
+    "name": "Asus Vivobook X515MA Celeron N4020",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-500x500.jpg",
+    
+    "price": "51000",
+    "category": "Laptop"
+  },
+  {
+    "id": 5,
+    "name": "ASUS champion A400 Xcel",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-14-k413ea/vivobook-14-k413ea-06-500x500.jpg",
+    
+    "price": "17020",
+    "category": "Shotgun"
+  },
+  {
+    "id": 6,
+    "name": "Dell Inspiron 15 3510 ",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3510/inspiron-15-3510-01-500x500.jpg",
+    
+    "price": "3900",
+    "category": "Shotgun"
+  },
+  {
+    "id": 7,
+    "name": "Acer Gaming Aspire 7 A715",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-7/aspire-7-01-228x228.jpg",
+   
+    "price": "54030",
+    "category": "Laptop"
+  },
+  {
+    "id": 8,
+    "name": "Dell  Ryzen 7 3700U",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/15-3505/3505-01-500x500.jpg",
+   
+    "price": "57070",
+    "category": "Laptop"
+  },
+  {
+    "id": 9,
+    "name": "Lenovo IdeaPad Slim 3i ",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-0010-500x500.jpg",
+    
+    "price": "52000",
+    "category": "Laptop"
+  },
+  {
+    "id": 10,
+    "name": "HP 15s-du3786TU Core i3 ",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du3786tu/15s-du3786tu-001-500x500.jpg",
+    
+    "price": "55000",
+    "category": "Laptop"
+  }
+  
+  
+]
